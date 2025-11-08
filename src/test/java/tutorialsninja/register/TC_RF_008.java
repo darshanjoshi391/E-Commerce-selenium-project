@@ -19,7 +19,7 @@ public class TC_RF_008
     {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         driver.get("https://tutorialsninja.com/demo/");
 
         driver.findElement(By.xpath("//span[text()='My Account']")).click();
